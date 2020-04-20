@@ -1,9 +1,21 @@
 const Account = require("./../models/accounts");
 
-exports.createAccount = (req, res) => {
+exports.createAccount = async (req, res) => {
+
+  const {
+    type,
+    plan
+  } = req.body;
+
+  const newAccount = await Account.create({
+    type,
+    plan
+  });
 
   res.status(200).json({
     status: "success",
-    message: "routes not yet defined"
+    data: {
+      newAccount
+    }
   })
 }
