@@ -1,0 +1,30 @@
+{
+ "name": "e-trust",
+ "version": "1.0.0",
+ "description": "A cooperative app",
+ "main": "app.js",
+ "scripts": {
+  "start": "nodemon server",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/victor-for-christ/e-trust.git"
+ },
+ "keywords": [
+  "Money",
+  "Contribution",
+  "loan"
+ ],
+ "author": "Victor",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/victor-for-christ/e-trust/issues"
+ },
+ "homepage": "https://github.com/victor-for-christ/e-trust#readme",
+ "dependencies": {
+  "express": "^4.17.1",
+  "mongoose": "^5.9.9",
+  "slugify": "^1.4.0"
+ }
+}

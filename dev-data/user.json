@@ -1,0 +1,66 @@
+[
+ {
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "johndoe@gmail.com",
+  "password": "dafkdflkakldf.kdjfasldfjdkflkdjafkdf.dasjfkdlfkflsaffl",
+  "role": "user",
+  "photo": "userphoto",
+  "Nationality": "Nigeria",
+  "Means of ID": [
+   "National ID",
+   "International Passport",
+   "Driving License",
+   "Voters' Card"
+  ],
+  "State": "Ekiti",
+  "LGA": "Ikere",
+  "ResisdentialAddress": "Araromi",
+  "BVN": 22228834746446,
+  "updatedProfile": true,
+  "timestamp": "Date",
+  "noOfAccounts": 2,
+  "plans": ["Esusu", "Weekly"],
+  "noOfcontribution": 10, //esusu 31, weekly 52, monthly 12
+  "totalContribution": 1,
+  "accountDetails": null,
+  "asGuarrantor": false,
+  "loanEligibility": false,
+  "loanLimit": 0,
+  "repaymentDay": "Date",
+  "amountRepaid": 0,
+  "loanBalance": 0,
+  "guarratorApproval": false,
+  "adminApproval": false,
+  "currentLoan": 0,
+  "nofLoans": 2,
+  "referrerLink": "GTH89H",
+  "referrers": ["user", "user"],
+  "owing": false
+ },
+ // not as guarrantor
+ {
+  "firstName": "Daniel",
+  "lastName": "Oluwaseun",
+  "email": "admin@etgzone.com",
+  "password": "dafkdflkakldf.kdjfasldfjdkflkdjafkdf.dasjfkdlfkflsaffl",
+  "role": "admin",
+  "timestamp": "Date"
+ },
+ {
+  "firstName": "Daniel",
+  "lastName": "Oluwaseun",
+  "email": "admin@etgzone.com",
+  "password": "dafkdflkakldf.kdjfasldfjdkflkdjafkdf.dasjfkdlfkflsaffl",
+  "role": "manager",
+  "timestamp": "Date"
+ },
+ {
+  "firstName": "Daniel",
+  "lastName": "Oluwaseun",
+  "email": "admin@etgzone.com",
+  "password": "dafkdflkakldf.kdjfasldfjdkflkdjafkdf.dasjfkdlfkflsaffl",
+  "role": "accountant",
+  "timestamp": "Date"
+ }
+]
