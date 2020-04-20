@@ -149,6 +149,25 @@ const userSchema = new mongoose.Schema({
   }
 });
 
+//Hash password and remove passwordConfirm
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password")) return next();
+  this.password = await bcrypt.hash(this.password, 12);
+  this.passwordConfirm = undefined;
+  next();
+});
+
+//For find middleware, to only get the active members. i.e non-deleted members
+userSchema.pre(/^find/, function (next) { //Query middleware
+  //this point to current query
+  this.find({
+    active: {
+      $ne: false
+    }
+  });
+  next();
+})
+
 
 const User = mongoose.model("User", userSchema);
 
