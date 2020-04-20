@@ -1,7 +1,7 @@
 const Account = require("./../models/accounts");
+const catchAsync = require("./../utils/catchAsync");
 
-exports.createAccount = async (req, res) => {
-
+exports.createAccount = catchAsync(async (req, res) => {
   const {
     type,
     plan
@@ -11,11 +11,10 @@ exports.createAccount = async (req, res) => {
     type,
     plan
   });
-
   res.status(200).json({
     status: "success",
     data: {
       newAccount
     }
   })
-}
+});
