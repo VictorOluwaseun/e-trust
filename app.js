@@ -3,6 +3,7 @@ const morgan = require("morgan");
 
 
 const accountRouter = require("./routes/accounts");
+const userRouter = require("./routes/users");
 const AppError = require("./utils/AppError");
 const globalErrorHandler = require("./controllers/error");
 
@@ -27,7 +28,7 @@ app.use(express.urlencoded({
 }));
 
 app.use("/api/v1/accounts", accountRouter);
-// app.use("/api/v1/users", userRouter);
+app.use("/api/v1/users", userRouter);
 // app.use("/api/v1/loans", loanRouter);
 
 app.use("*", (req, res, next) => {
