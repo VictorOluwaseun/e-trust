@@ -3,7 +3,7 @@ const userController = require("./../controllers/user");
 const authController = require("./../controllers/auth");
 
 
-const router = express.router();
+const router = express.Router();
 
 router.post("/signup", authController.signup);
 
