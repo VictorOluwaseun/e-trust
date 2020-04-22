@@ -1,0 +1,60 @@
+[10:46 PM, 12/21/2019] Pastor Jeremiah: A cooperative society website developed with wordpress is expected to have a plugin that will allow MEMBERS to login and:
+
+-Monitor their monthly contribution (updated by the admin)
+
+-Apply for a loan if eligible, and select another member of the society to act as referee *
+
+-Accept/reject referee request for a loan by another member
+
+-Access to view report/history of loans, repayments, and contributions till date
+
+ADMIN will be able to:
+
+-Create new members using provided form sample with passport photograph ( login details emailed to member)
+
+-Apportion rights to members created (Member, Accountant, Manager)
+
+-Approve loan application**
+
+-Update loan history for members
+
+-Update loan repayment for members
+
+-Update monthly contribution for members
+
+-View report of contributions or loan history for any member or all members using selected timeframe (dates)
+
+-View total summary of current contribution by all members
+
+*Loan application sample form requires a referee be provided which is a member of the society, hence applicant can select another member as referee while filling the form. the referee will be informed via email and will be able to login to account and approve request before the loan will be enabled for admin to review for acceptance of rejection.
+
+** once a referee has accepted a request. the loan will be visible for the admin-Accountant, which will also review information, add interest on loan, and submit. Submitted loan by Accountant will be visible for the admin-Manager to finally approve.
+
+Approved loan will be visible on the applicant's history, as a new order which if he clicks on can view the payment history as its being paid showcasing balance left to offset the loan.
+[11:36 PM, 12/21/2019] Pastor Jeremiah: Each member should be able to invest money and obtain loans. Once they login to their members area, they should be able to view; 
+1. Investments made
+2. Loans taken 
+3. Loans repayment level
+4. Interests accrued
+5. Payouts or withdrawals
+
+
+User to be eligible for loan must have
+0. Update Profile
+1. contributed 10 times
+2. must not be a current guarrantor
+3. must not be owing
+4. must be a regular User
+
+//For Loan Approval
+5. must have a guarrantor
+6. must have got approval from the guarrantor
+8. must have got approval from Manager
+9. must have got approval from Admin
+
+//After Approval
+1. Disbursement of funds
+2. 
+
+
+while logged in, inactive for 15minutes. active for 30mins
